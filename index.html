@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - IT Developer & Esports Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link active" data-section="about">About</a>
+                <a href="#tech-stack" class="nav-link" data-section="tech-stack">Tech Stack</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#esports" class="nav-link" data-section="esports">Esports Achievements</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-content fade-in">
+    <h1 class="hero-title">Fionn Caballes</h1>
+    <h2 class="hero-subtitle">Aspiring IT Developer</h2>
+    <p class="hero-description">
+        An aspiring IT Developer with a background in competitive esports.
+        I bring discipline, adaptability, and a strong drive to continuously
+        learn and build meaningful software solutions.
+    </p>
+    <button class="btn btn-primary" onclick="scrollToSection('projects')">
+        View My Projects
+        <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+    </button>
+    <div class="hero-image-container fade-in">
+    <div class="hero-image-glow"></div>
+
+    <div class="hero-slideshow">
+        <img src="me1.jpg" class="hero-image active" alt="Portrait 1">
+        <img src="me2.jpg" class="hero-image" alt="Portrait 2">
+        <img src="me3.jpg" class="hero-image" alt="Portrait 3">
+    </div>
+</div>
+
+</div>
+
+
+    <!-- About Section -->
+    <section id="about" class="section section-dark">
+        <div class="container-small">
+            <div class="scroll-reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                        I’m an aspiring IT Developer who started out as a competitive esports player, 
+                        joining and competing in multiple tournaments. Over time, my hobbies shifted 
+                        and I discovered a growing interest in IT and software development. Since then,
+                        I’ve been eager to learn more about technology, constantly improving my skills 
+                        and exploring different areas of IT that challenge me to grow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section section-darker">
+        <div class="container-medium">
+            <div class="scroll-reveal">
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="tech-grid">
+                    <div class="tech-card scroll-reveal-delay-1">
+                        <img src="TECHSTACKS/html.png" alt="HTML" class="tech-logo">
+                        <span class="tech-name">HTML</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-2">
+                        <img src="TECHSTACKS/css.png" alt="CSS" class="tech-logo">
+                        <span class="tech-name">CSS</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-3">
+                        <img src="TECHSTACKS/javascrpit.png" alt="JavaScript" class="tech-logo">
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-4">
+                        <img src="TECHSTACKS/php.png" alt="PHP" class="tech-logo">
+                        <span class="tech-name">PHP</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-5">
+                        <img src="TECHSTACKS/MySQL-Logo.png" alt="MySQL" class="tech-logo">
+                        <span class="tech-name">MySQL</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-6">
+                        <img src="TECHSTACKS/git.png" alt="Git" class="tech-logo">
+                        <span class="tech-name">Git</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-7">
+                        <img src="TECHSTACKS/xampp.png" alt="XAMPP" class="tech-logo">
+                        <span class="tech-name">XAMPP</span>
+                    </div>
+                    <div class="tech-card scroll-reveal-delay-8">
+                        <img src="TECHSTACKS/VS code.png" alt="VS Code" class="tech-logo">
+                        <span class="tech-name">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+    <div class="container-medium">
+        <div class="scroll-reveal">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+
+                <!-- Gym Management System -->
+                <div class="project-card scroll-reveal-delay-1">
+                    <div class="project-header">
+                        <h3 class="project-title">Gym Management System</h3>
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </div>
+                    <p class="project-description">
+                        A desktop-based Gym Management System developed using C#. 
+                        Includes member registration, membership tracking, and management features 
+                        for organizing gym operations efficiently.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">WinForms</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- LABAMOTO Laundry Management System -->
+                <div class="project-card scroll-reveal-delay-2">
+                    <div class="project-header">
+                        <h3 class="project-title">LABAMOTO Laundry Management System</h3>
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </div>
+                    <p class="project-description">
+                        A web-based Laundry Management System developed using ASP.NET Razor in C#. 
+                        Designed to manage laundry orders, track service status, and handle customer records 
+                        efficiently for daily operations.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">ASP.NET</span>
+                        <span class="tag">Razor Pages</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Online Voting System -->
+                <div class="project-card scroll-reveal-delay-3">
+                    <div class="project-header">
+                        <h3 class="project-title">Online Voting System</h3>
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </div>
+                    <p class="project-description">
+                        A secure web-based Online Voting System built using Django (Python). 
+                        Features include user authentication, candidate management, and vote tallying 
+                        to ensure a transparent voting process.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+
+                <!-- Electronic Library Management System -->
+                <div class="project-card scroll-reveal-delay-4">
+                    <div class="project-header">
+                        <h3 class="project-title">Electronic Library Management System</h3>
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </div>
+                    <p class="project-description">
+                        An Electronic Library Management System with online book reservation, 
+                        SMS and email notifications developed for STI College Ormoc 
+                        to improve library efficiency and student access.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">SMS API</span>
+                    </div>
+                </div>
+
+                <!-- Online Ordering & Reservation System -->
+                <div class="project-card scroll-reveal-delay-5">
+                    <div class="project-header">
+                        <h3 class="project-title">Online Ordering & Reservation System</h3>
+                        <svg class="project-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </div>
+                    <p class="project-description">
+                        An Online Ordering and Reservation System for school uniforms and proware 
+                        with inventory management, developed for STI College Ormoc.
+                        Streamlines ordering, reservations, and stock monitoring.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Inventory</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Esports Achievements Section -->
+    <section id="esports" class="section section-darker">
+        <div class="container-large">
+            <div class="scroll-reveal">
+                <h2 class="section-title">ESPORTS ACHIEVEMENTS</h2>
+                <p class="section-subtitle">
+                    Competitive esports results demonstrating teamwork, strategy, and excellence
+                </p>
+                <div class="esports-grid">
+                    <div class="esports-card scroll-reveal-delay-1">
+                        <div class="esports-image-container">
+                            <img src="image.png" alt="STI ESPORTS CUP-NATIONALS" class="esports-image">                                                     
+                        </div>
+                        <div class="esports-content">
+                            <h3 class="esports-title">STI ESPORTS CUP - NATIONALS</h3>
+                            <span class="rank-badge rank-top3">FINALIST</span>
+                        </div>
+                    </div>
+
+                    <div class="esports-card scroll-reveal-delay-2">
+                        <div class="esports-image-container">
+                            <img src="interschool.jpg" alt="GOMA CUP INTERSCHOOL" class="esports-image">
+                            
+                        </div>
+                        <div class="esports-content">
+                            <h3 class="esports-title">GOMA CUP INTERSCHOOL</h3>
+                            <span class="rank-badge rank-champion">CHAMPION</span>
+                        </div>
+                    </div>
+
+                    <div class="esports-card scroll-reveal-delay-3">
+                        <div class="esports-image-container">
+                            <img src="borongan.jpg" alt="BORONGAN CUP MLBB SEASON" class="esports-image">
+                            
+                        </div>
+                        <div class="esports-content">
+                            <h3 class="esports-title">BORONGAN CUP MLBB SEASON</h3>
+                            <span class="rank-badge rank-champion">CHAMPION</span>
+                        </div>
+                    </div>
+
+                    <div class="esports-card scroll-reveal-delay-4">
+                        <div class="esports-image-container">
+                            <img src="pina.jpg" alt="PINA FESTIVAL MLBB CHAMPIONSHIP" class="esports-image">
+                            
+                        </div>
+                        <div class="esports-content">
+                            <h3 class="esports-title">PINA FESTIVAL MLBB CHAMPIONSHIP</h3>
+                            <span class="rank-badge rank-champion">CHAMPION</span>
+                        </div>
+                    </div>
+
+                    <div class="esports-card scroll-reveal-delay-5">
+                        <div class="esports-image-container">
+                            <img src="nabolcat.jpg" alt="NABOLCAT SEASON 4" class="esports-image">
+                            
+                        </div>
+                        <div class="esports-content">
+                            <h3 class="esports-title">NABOLCAT SEASON 4</h3>
+                            <span class="rank-badge rank-champion">CHAMPION</span>
+                        </div>
+                    </div>
+
+                    <div class="esports-card scroll-reveal-delay-6">
+                        <div class="esports-image-container">
+                            <img src="lcp.jpg" alt="LCP NATIONALS S1" class="esports-image">
+                            
+                        </div>
+                        <div class="esports-content">
+                            <h3 class="esports-title">LCP NATIONALS S1</h3>
+                            <span class="rank-badge rank-top3">TOP 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container-small">
+            <div class="scroll-reveal contact-section">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and discuss opportunities</p>
+                
+                <a href="mailto:pyonicoy@gmail.com" class="contact-email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect width="20" height="16" x="2" y="4" rx="2"/>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                    </svg>
+                    pyonicoy@gmail.com
+                </a>
+                
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com/pyonexthe1" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                   <a href="https://instagram.com/paaaayoooooniiiiiiiii" target="_blank" class="social-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 1.5C5.4 3.5 3.5 5.4 3.5 7.75v8.5c0 2.35 1.9 4.25 4.25 4.25h8.5c2.35 0 4.25-1.9 4.25-4.25v-8.5c0-2.35-1.9-4.25-4.25-4.25h-8.5z"/>
+                        <path d="M12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 1.5a3.5 3.5 0 1 1 0 7a3.5 3.5 0 0 1 0-7z"/>
+                        <circle cx="17.5" cy="6.5" r="1.2"/>
+                    </svg>
+                </a>
+                </div>
+                
+            </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Portfolio. Built with discipline and passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
